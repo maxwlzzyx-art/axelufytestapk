@@ -16,3 +16,7 @@
 local.properties
 .env
 debug.keystore
+
+# Include generated release APK in project export
+!release-apk/
+!release-apk/**
