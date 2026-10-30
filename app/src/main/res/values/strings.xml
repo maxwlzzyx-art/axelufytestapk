@@ -1,0 +1,149 @@
+<resources>
+    <!-- App Information -->
+    <string name="app_name">Mi Freeform</string>
+    <string name="app_tagline">Next-Gen Floating Windows &amp; Multitasking</string>
+    
+    <!-- Navigation Tabs -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_window_sizes">Window Sizes</string>
+    <string name="nav_app_rules">App Rules</string>
+    <string name="nav_mini_apps">Floating Apps</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="dash_title">Multitasking Center</string>
+    <string name="dash_status_service_running">Floating Dock Active</string>
+    <string name="dash_status_service_stopped">Floating Dock Inactive</string>
+    <string name="dash_toggle_dock">Floating Edge Dock</string>
+    <string name="dash_toggle_dock_desc">Show edge handle to quickly launch apps into floating windows</string>
+    <string name="dash_android15_status">Android 15 Windowing Engine</string>
+    <string name="dash_android15_desc">Desktop mode &amp; launch bounds optimization ready</string>
+    <string name="dash_dev_freeform_enabled">System Freeform Enabled</string>
+    <string name="dash_dev_freeform_disabled">System Freeform Not Active</string>
+    <string name="dash_dev_freeform_help">Enable in Developer Options to let all apps run in freeform windows</string>
+    <string name="dash_open_dev_options">Open Developer Options</string>
+    <string name="dash_quick_launch_title">Quick Launch Floating App</string>
+    <string name="dash_quick_launch_desc">Tap an app to open in custom floating window bounds</string>
+    <string name="dash_permission_banner_title">Overlay Permission Required</string>
+    <string name="dash_permission_banner_desc">Grant Display Over Other Apps permission to enable floating windows and the edge sidebar</string>
+    <string name="dash_grant_permission">Grant Permission</string>
+    <string name="dash_active_preset">Active Default Size</string>
+    <string name="dash_stats_presets">Configured Presets</string>
+    <string name="dash_stats_app_rules">Per-App Rules</string>
+    <string name="dash_copy_adb_command">Copy ADB Setup Command</string>
+    <string name="dash_adb_copied">ADB command copied to clipboard!</string>
+
+    <!-- Window Sizes Manager -->
+    <string name="ws_title">Window Size Manager</string>
+    <string name="ws_subtitle">Design, preview, and customize floating window dimensions</string>
+    <string name="ws_interactive_preview">Interactive Canvas Preview</string>
+    <string name="ws_preview_hint">Drag the bottom-right corner to resize, or drag center to move</string>
+    <string name="ws_presets_header">Window Presets</string>
+    <string name="ws_preset_compact">Compact Mini</string>
+    <string name="ws_preset_standard">Standard Float</string>
+    <string name="ws_preset_half_left">Split Left</string>
+    <string name="ws_preset_half_right">Split Right</string>
+    <string name="ws_preset_landscape">16:9 Cinema</string>
+    <string name="ws_preset_desktop">Desktop Square</string>
+    <string name="ws_custom_preset">Custom Preset</string>
+    <string name="ws_add_preset">New Preset</string>
+    <string name="ws_edit_preset">Edit Preset</string>
+    <string name="ws_preset_name">Preset Name</string>
+    <string name="ws_width">Width</string>
+    <string name="ws_height">Height</string>
+    <string name="ws_position_x">Horizontal Position (X)</string>
+    <string name="ws_position_y">Vertical Position (Y)</string>
+    <string name="ws_corner_radius">Corner Radius</string>
+    <string name="ws_opacity">Window Opacity</string>
+    <string name="ws_snap_edges">Snap to Screen Edges</string>
+    <string name="ws_save_preset">Save Preset</string>
+    <string name="ws_delete_preset">Delete</string>
+    <string name="ws_set_default">Set as Global Default</string>
+    <string name="ws_is_default">Default</string>
+    <string name="ws_aspect_ratio">Aspect Ratio</string>
+    <string name="ws_width_pct">%1$d%% (%2$d dp)</string>
+    <string name="ws_height_pct">%1$d%% (%2$d dp)</string>
+
+    <!-- App Rules -->
+    <string name="ar_title">Per-App Window Rules</string>
+    <string name="ar_subtitle">Assign specific window sizes to individual applications</string>
+    <string name="ar_search_placeholder">Search installed apps…</string>
+    <string name="ar_no_rules_title">No Custom Rules Yet</string>
+    <string name="ar_no_rules_desc">Assign custom window sizes to apps like YouTube, Calculator, or Chrome</string>
+    <string name="ar_add_rule">Add App Rule</string>
+    <string name="ar_select_app">Select an Application</string>
+    <string name="ar_select_preset">Select Window Size</string>
+    <string name="ar_rule_saved">Rule saved for %1$s</string>
+    <string name="ar_rule_deleted">Rule removed</string>
+
+    <!-- Floating Mini-Apps -->
+    <string name="mini_title">Floating Tools</string>
+    <string name="mini_subtitle">True floating overlay tools that run on top of any game or app</string>
+    <string name="mini_calc_title">Floating Calculator</string>
+    <string name="mini_calc_desc">Instant floating arithmetic with history and resizable window</string>
+    <string name="mini_notes_title">Floating Scratchpad</string>
+    <string name="mini_notes_desc">Quick multi-window notes and clipboard scratchpad</string>
+    <string name="mini_timer_title">Floating Stopwatch</string>
+    <string name="mini_timer_desc">Laps, countdowns, and timers that stay visible while playing or working</string>
+    <string name="mini_browser_title">Floating Web Browser</string>
+    <string name="mini_browser_desc">Search, lookup guides, and view web pages without leaving your current app</string>
+    <string name="mini_launch">Launch Floating Tool</string>
+    <string name="mini_in_app_preview">Launch In-App Floating Sandbox</string>
+
+    <!-- Floating Sandbox Window Controls -->
+    <string name="win_minimize">Minimize</string>
+    <string name="win_maximize">Maximize</string>
+    <string name="win_close">Close</string>
+    <string name="win_resize">Drag to Resize</string>
+    <string name="calc_clear">C</string>
+    <string name="calc_backspace">⌫</string>
+    <string name="calc_history">History</string>
+    <string name="notes_placeholder">Type your floating note or paste text here…</string>
+    <string name="notes_save">Saved automatically</string>
+    <string name="browser_url_hint">Search or enter URL (e.g. wikipedia.org)…</string>
+    <string name="browser_go">Go</string>
+    <string name="timer_start">Start</string>
+    <string name="timer_pause">Pause</string>
+    <string name="timer_reset">Reset</string>
+    <string name="timer_lap">Lap</string>
+
+    <!-- Settings & Customization -->
+    <string name="set_title">Settings &amp; Tweaks</string>
+    <string name="set_dock_section">Floating Dock Appearance</string>
+    <string name="set_dock_side">Handle Screen Side</string>
+    <string name="set_dock_side_right">Right Edge</string>
+    <string name="set_dock_side_left">Left Edge</string>
+    <string name="set_dock_opacity">Handle Transparency</string>
+    <string name="set_dock_size">Handle Size</string>
+    <string name="set_auto_hide">Auto-hide Handle after 3 seconds</string>
+    <string name="set_vibration">Haptic Feedback on Gestures</string>
+    
+    <string name="set_android15_section">Android 15 Windowing Engine</string>
+    <string name="set_multi_task_flags">Use Multiple Task Flags</string>
+    <string name="set_multi_task_flags_desc">Allows opening multiple instances of supported apps in freeform</string>
+    <string name="set_shizuku_mode">Shizuku / Shell Integration</string>
+    <string name="set_shizuku_desc">Provides system-level window bounds via direct am start shell commands</string>
+    <string name="set_dev_options">Developer Options Freeform Guide</string>
+    
+    <string name="set_language_section">Language / Bahasa</string>
+    <string name="set_language">App Language</string>
+    <string name="set_lang_system">System Default</string>
+    <string name="set_lang_en">English</string>
+    <string name="set_lang_in">Bahasa Indonesia</string>
+    
+    <!-- Quick Settings Tile -->
+    <string name="tile_label">Mi Freeform</string>
+    <string name="tile_state_active">Floating Dock ON</string>
+    <string name="tile_state_inactive">Floating Dock OFF</string>
+    
+    <!-- Dialogs & Actions -->
+    <string name="action_close">Close</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_launch">Launch</string>
+    <string name="action_done">Done</string>
+    <string name="action_copied">Copied to clipboard</string>
+    <string name="confirm_delete_preset">Are you sure you want to delete this preset?</string>
+</resources>

@@ -1,0 +1,149 @@
+<resources>
+    <!-- Informasi Aplikasi -->
+    <string name="app_name">Mi Freeform</string>
+    <string name="app_tagline">Jendela Mengambang &amp; Multi-Tugas Generasi Baru</string>
+    
+    <!-- Tab Navigasi -->
+    <string name="nav_dashboard">Dasbor</string>
+    <string name="nav_window_sizes">Ukuran Jendela</string>
+    <string name="nav_app_rules">Aturan Aplikasi</string>
+    <string name="nav_mini_apps">Aplikasi Melayang</string>
+    <string name="nav_settings">Pengaturan</string>
+
+    <!-- Dasbor -->
+    <string name="dash_title">Pusat Multi-Tugas</string>
+    <string name="dash_status_service_running">Dok Tepi Aktif</string>
+    <string name="dash_status_service_stopped">Dok Tepi Nonaktif</string>
+    <string name="dash_toggle_dock">Dok Tepi Melayang</string>
+    <string name="dash_toggle_dock_desc">Tampilkan bilah sisi untuk membuka aplikasi dalam jendela mengambang dengan cepat</string>
+    <string name="dash_android15_status">Mesin Jendela Android 15</string>
+    <string name="dash_android15_desc">Optimasi batas peluncuran &amp; mode desktop siap digunakan</string>
+    <string name="dash_dev_freeform_enabled">Mode Freeform Sistem Aktif</string>
+    <string name="dash_dev_freeform_disabled">Mode Freeform Belum Aktif</string>
+    <string name="dash_dev_freeform_help">Aktifkan di Opsi Pengembang agar semua aplikasi dapat dibuka dalam jendela mengambang</string>
+    <string name="dash_open_dev_options">Buka Opsi Pengembang</string>
+    <string name="dash_quick_launch_title">Peluncur Cepat Jendela Mengambang</string>
+    <string name="dash_quick_launch_desc">Ketuk aplikasi untuk membukanya dalam ukuran jendela mengambang khusus</string>
+    <string name="dash_permission_banner_title">Izin Hamparan Diperlukan</string>
+    <string name="dash_permission_banner_desc">Berikan izin Tampilkan di Atas Aplikasi Lain untuk mengaktifkan jendela mengambang dan bilah sisi</string>
+    <string name="dash_grant_permission">Berikan Izin</string>
+    <string name="dash_active_preset">Ukuran Default Aktif</string>
+    <string name="dash_stats_presets">Preset Dikonfigurasi</string>
+    <string name="dash_stats_app_rules">Aturan Per-Aplikasi</string>
+    <string name="dash_copy_adb_command">Salin Perintah ADB</string>
+    <string name="dash_adb_copied">Perintah ADB berhasil disalin ke papan klip!</string>
+
+    <!-- Pengelola Ukuran Jendela -->
+    <string name="ws_title">Pengelola Ukuran Jendela</string>
+    <string name="ws_subtitle">Rancang, pratinjau, dan sesuaikan dimensi jendela mengambang</string>
+    <string name="ws_interactive_preview">Pratinjau Kanvas Interaktif</string>
+    <string name="ws_preview_hint">Tarik sudut kanan bawah untuk mengubah ukuran, atau geser tengah untuk memindahkan</string>
+    <string name="ws_presets_header">Preset Jendela</string>
+    <string name="ws_preset_compact">Kompak Mini</string>
+    <string name="ws_preset_standard">Standar Mengambang</string>
+    <string name="ws_preset_half_left">Bagi Kiri</string>
+    <string name="ws_preset_half_right">Bagi Kanan</string>
+    <string name="ws_preset_landscape">Sinema 16:9</string>
+    <string name="ws_preset_desktop">Kotak Desktop</string>
+    <string name="ws_custom_preset">Preset Khusus</string>
+    <string name="ws_add_preset">Preset Baru</string>
+    <string name="ws_edit_preset">Edit Preset</string>
+    <string name="ws_preset_name">Nama Preset</string>
+    <string name="ws_width">Lebar</string>
+    <string name="ws_height">Tinggi</string>
+    <string name="ws_position_x">Posisi Horizontal (X)</string>
+    <string name="ws_position_y">Posisi Vertikal (Y)</string>
+    <string name="ws_corner_radius">Radius Sudut</string>
+    <string name="ws_opacity">Transparansi Jendela</string>
+    <string name="ws_snap_edges">Rapatkan ke Tepi Layar</string>
+    <string name="ws_save_preset">Simpan Preset</string>
+    <string name="ws_delete_preset">Hapus</string>
+    <string name="ws_set_default">Jadikan Default Global</string>
+    <string name="ws_is_default">Default</string>
+    <string name="ws_aspect_ratio">Rasio Aspek</string>
+    <string name="ws_width_pct">%1$d%% (%2$d dp)</string>
+    <string name="ws_height_pct">%1$d%% (%2$d dp)</string>
+
+    <!-- Aturan Per-Aplikasi -->
+    <string name="ar_title">Aturan Jendela Per-Aplikasi</string>
+    <string name="ar_subtitle">Tentukan ukuran jendela tertentu untuk setiap aplikasi</string>
+    <string name="ar_search_placeholder">Cari aplikasi terpasang…</string>
+    <string name="ar_no_rules_title">Belum Ada Aturan Khusus</string>
+    <string name="ar_no_rules_desc">Tetapkan ukuran jendela khusus untuk aplikasi seperti YouTube, Kalkulator, atau Chrome</string>
+    <string name="ar_add_rule">Tambah Aturan Aplikasi</string>
+    <string name="ar_select_app">Pilih Aplikasi</string>
+    <string name="ar_select_preset">Pilih Ukuran Jendela</string>
+    <string name="ar_rule_saved">Aturan disimpan untuk %1$s</string>
+    <string name="ar_rule_deleted">Aturan dihapus</string>
+
+    <!-- Alat Mengambang -->
+    <string name="mini_title">Alat Mengambang</string>
+    <string name="mini_subtitle">Alat jendela melayang nyata yang berjalan di atas aplikasi atau game apa pun</string>
+    <string name="mini_calc_title">Kalkulator Melayang</string>
+    <string name="mini_calc_desc">Hitung cepat melayang dengan riwayat dan jendela yang dapat diubah ukuran</string>
+    <string name="mini_notes_title">Catatan Cepat Melayang</string>
+    <string name="mini_notes_desc">Papan coretan dan memo multi-jendela instan</string>
+    <string name="mini_timer_title">Stopwatch Melayang</string>
+    <string name="mini_timer_desc">Putaran lap, hitung mundur, dan timer yang selalu terlihat saat bermain game atau belajar</string>
+    <string name="mini_browser_title">Peramban Web Melayang</string>
+    <string name="mini_browser_desc">Cari informasi, panduan game, dan situs web tanpa menutup aplikasi utama</string>
+    <string name="mini_launch">Buka Alat Melayang</string>
+    <string name="mini_in_app_preview">Buka Kotak Pasir Melayang</string>
+
+    <!-- Kontrol Jendela Melayang -->
+    <string name="win_minimize">Minimalkan</string>
+    <string name="win_maximize">Maksimalkan</string>
+    <string name="win_close">Tutup</string>
+    <string name="win_resize">Tarik untuk Mengubah Ukuran</string>
+    <string name="calc_clear">C</string>
+    <string name="calc_backspace">⌫</string>
+    <string name="calc_history">Riwayat</string>
+    <string name="notes_placeholder">Ketik catatan melayang Anda atau tempel teks di sini…</string>
+    <string name="notes_save">Tersimpan otomatis</string>
+    <string name="browser_url_hint">Cari atau masukkan tautan URL (contoh wikipedia.org)…</string>
+    <string name="browser_go">Buka</string>
+    <string name="timer_start">Mulai</string>
+    <string name="timer_pause">Jeda</string>
+    <string name="timer_reset">Reset</string>
+    <string name="timer_lap">Putaran</string>
+
+    <!-- Pengaturan & Penyesuaian -->
+    <string name="set_title">Pengaturan &amp; Tweak</string>
+    <string name="set_dock_section">Tampilan Dok Melayang</string>
+    <string name="set_dock_side">Sisi Layar Pegangan</string>
+    <string name="set_dock_side_right">Tepi Kanan</string>
+    <string name="set_dock_side_left">Tepi Kiri</string>
+    <string name="set_dock_opacity">Transparansi Pegangan</string>
+    <string name="set_dock_size">Ukuran Pegangan</string>
+    <string name="set_auto_hide">Sembunyikan Otomatis setelah 3 detik</string>
+    <string name="set_vibration">Umpan Balik Getar (Haptik)</string>
+    
+    <string name="set_android15_section">Mesin Jendela Android 15</string>
+    <string name="set_multi_task_flags">Gunakan Bendera Multi-Tugas</string>
+    <string name="set_multi_task_flags_desc">Izinkan membuka banyak instans aplikasi yang didukung dalam mode bebas</string>
+    <string name="set_shizuku_mode">Integrasi Shizuku / Shell</string>
+    <string name="set_shizuku_desc">Menyediakan batas jendela tingkat sistem melalui perintah shell am start langsung</string>
+    <string name="set_dev_options">Panduan Mode Bebas Opsi Pengembang</string>
+    
+    <string name="set_language_section">Bahasa / Language</string>
+    <string name="set_language">Bahasa Aplikasi</string>
+    <string name="set_lang_system">Default Sistem</string>
+    <string name="set_lang_en">English (Inggris)</string>
+    <string name="set_lang_in">Bahasa Indonesia</string>
+    
+    <!-- Ubin Pengaturan Cepat -->
+    <string name="tile_label">Mi Freeform</string>
+    <string name="tile_state_active">Dok Melayang AKTIF</string>
+    <string name="tile_state_inactive">Dok Melayang MATI</string>
+    
+    <!-- Dialog & Tindakan -->
+    <string name="action_close">Tutup</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_save">Simpan</string>
+    <string name="action_apply">Terapkan</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_launch">Buka</string>
+    <string name="action_done">Selesai</string>
+    <string name="action_copied">Disalin ke papan klip</string>
+    <string name="confirm_delete_preset">Apakah Anda yakin ingin menghapus preset ini?</string>
+</resources>

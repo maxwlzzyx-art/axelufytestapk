@@ -1,0 +1,6 @@
+{
+  "name": "Mi Freeform",
+  "description": "MIUI-inspired floating window and multitasking manager with custom window sizes, quick edge dock, and Android 15 windowing enhancements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
